@@ -99,7 +99,7 @@ html {
 .home {
     
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/IMG\ ME.JPG") center/cover no-repeat;    
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/IMG\ ME.JPG") center/cover no-repeat;    
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -338,24 +338,27 @@ section .title::after {
     background: crimson;
 }
 .skills-content .right .html::before{
-   width: 90%;
+   width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
  }
  .skills-content .right .js::before {
-    width: 80%;
+    width: 40%;
  }
  .skills-content .right .React::before {
-     width: 50%;
+     width: 30%;
   }
-  .skills-content .right .mysql::before {
+ .skills-content .right .Bootstrap::before {
+     width: 70%;
+  }
+  /* .skills-content .right .mysql::before {
     width: 70%;
  }
-   
+    */
       /* TEAMS SECTION STYLING */
    .teams .title::after {
-       content: "who with me";
+       content: "What I like to do";
    }
    .teams .carousel .card {
     background: #222;

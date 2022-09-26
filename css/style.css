@@ -801,6 +801,9 @@ footer span a:hover {
   .max-width {
     padding: 0 23px;
   }
+  .home {
+    height: auto;
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }

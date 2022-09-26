@@ -207,7 +207,6 @@ section .title::after {
   left: 50%;
   font-size: 20px;
   color: crimson;
-  padding: 5px;
   background: #fff;
   transform: translateX(-50%);
 }
@@ -501,7 +500,7 @@ section .title::after {
     width: 70%;
  }
     */
-/* TEAMS SECTION STYLING */
+/* PROJECTS SECTION STYLING */
 .teams .title::after {
   content: "What I have done";
 }
